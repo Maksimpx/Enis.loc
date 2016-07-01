@@ -1,6 +1,16 @@
+@import "bootstrap.min.css";
 .item active {
-	height:300px !important;
+	height:900px !important;
 }
 #carousel-example-generic {
 	top:-15px;
+}
+.breadcrumb {
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 4px;
+}
+.body {
+	
+    background-color: #696969;
 }
