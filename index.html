@@ -2,40 +2,79 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/nex.min.css" />
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
 	<title></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
-	<link href="style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> <!-- The latest jquery -->
+<script type="text/javascript" src="js/Animo.min.js"></script> <!-- The Animo library -->
+<script type="text/javascript" src="js/nex.min.js"></script> <!-- Nex library -->
+<!-- optional, include only if you're using google maps -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
 <div class="wrapper">
 
 	<header class="header">
-		<strong>Header:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor. Praesent dictum, libero ut tempus dictum, neque eros elementum mauris, quis mollis arcu velit ac diam. Etiam neque. Quisque nec turpis. Aliquam arcu nulla, dictum et, lacinia a, mollis in, ante. Sed eu felis in elit tempor venenatis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ultricies porttitor purus. Proin non tellus at ligula fringilla tristique. Fusce vehicula quam. Curabitur vel tortor vitae pede imperdiet ultrices. Sed tortor.
-	</header><!-- .header-->
 
-	<div class="middle">
+<nav>
+<ul class="dropdown">
+<li class="drop"> <a href="/" class="logo">LinchStudio</a>
+        	<li class="drop"><a href="#">Really Tall Menu</a>
+</li>
+        	<li class="drop"><a href="#">Kinda Tall Menu</a>
+        		<ul class="sub_menu">
+        			<li><a href="#">Lorem</a></li>
+					
+							
+        		</ul>
+        	</li>
+        	<li class="drop"><a href="#">Average Menu</a>
+        		<ul class="sub_menu">
+        			<li><a href="#">Lorem</a></li>
+							
+        		</ul>
+        	</li>
+        	<li><a href="#">No Menu</a>
+        	</li>
+        </ul>
+</nav> 
+		</header><!-- .header-->
 
-		<div class="container">
-			<main class="content">
-				<strong>Content:</strong> Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
-			</main><!-- .content -->
-		</div><!-- .container-->
-
-		<aside class="left-sidebar">
-			<strong>Left Sidebar:</strong> Integer velit. Vestibulum nisi nunc, accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus, placerat eget, posuere eget, egestas eget, dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas vel elit.
-		</aside><!-- .left-sidebar -->
-
-	</div><!-- .middle-->
+	<main class="content">
+		<div id="nex-preloader"> </div>
+		<strong>Content:</strong> Sed placerat accumsan ligula. Aliquam felis magna, congue quis, tempus eu, aliquam vitae, ante. Cras neque justo, ultrices at, rhoncus a, facilisis eget, nisl. Quisque vitae pede. Nam et augue. Sed a elit. Ut vel massa. Suspendisse nibh pede, ultrices vitae, ultrices nec, mollis non, nibh. In sit amet pede quis leo vulputate hendrerit. Cras laoreet leo et justo auctor condimentum. Integer id enim. Suspendisse egestas, dui ac egestas mollis, libero orci hendrerit lacus, et malesuada lorem neque ac libero. Morbi tempor pulvinar pede. Donec vel elit.
+	</main><!-- .content -->
 
 </div><!-- .wrapper -->
 
 <footer class="footer">
 	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
 </footer><!-- .footer -->
+<script type="text/javascript">
+    new Nex({data: slides});
+</script>
+<script type="text/javascript">
+    var slides = [
+        {
+            link        : "img/3560x2060-96dpi-foto-devushka-s-fotoapparatom.jpg",
+            thumb       : "img/3560x2060-96dpi-foto-devushka-s-fotoapparatom.jpg"
+        },
+
+        {
+            link        : "img/143635088818.jpg",
+            thumb       : "img/143635088818.jpg"
+        },
+
+        {
+            link        : "img/gandex.ru-18887_3206_151866-2560x16001.jpg",
+            thumb       : "img/gandex.ru-18887_3206_151866-2560x16001.jpg"
+        }
+    ];
+</script>
 
 </body>
 </html>
