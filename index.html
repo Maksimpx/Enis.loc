@@ -19,68 +19,47 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
 		<div class="row"> 
-			<div class="col-md-12" style="margin-bottom: 30px;">
+			<div class="col-md-12" style="margin-bottom: 10px;">
 				<div class="row">
 					<div class="col-md-12" >
-					
 					<nav class="navbar navbar-inverse" role="navigation"> <!-- Начало меню-->
 						   <ul class="nav navbar-nav">
-								<a class="navbar-brand" href="#">LinchStudio</a>
+								<a class="navbar-brand" href="#">Утші</a>
 								<li class="active"><a href="#">Главная</a></li>
 								<li><a href="#">Новости</a></li>
 							  </ul>
-							  
-							  
 </nav>
 
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top:5px;">  <!-- Слайдер -->
 
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                  <!-- Маркеры слайдов -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                  </ol>
- 
-                  <!-- Содержимое слайдов -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="img/3560x2060-96dpi-foto-devushka-s-fotoapparatom.jpg" alt="...">
-                      <div class="carousel-caption">
-                        <h3>Море позитива</h3>
-                        <p></p>
-                      </div>
-                    </div>
-                     
-                    <div class="item">
-                      <img src="img/gandex.ru-18887_3206_151866-2560x16001.jpg" alt="...">
-                      <div class="carousel-caption">
-                        <h3>Професиональное качество</h3>
-                        <p></p>
-                      </div>
-                    </div>
-                     
-                    <div class="item">
-                      <img src="img/143635088818.jpg" alt="...">
-                      <div class="carousel-caption">
-                        <h3>Гибкий график</h3>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
- 
-                  <!-- Контролеры -->
-                  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                  </a>
-                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                  </a>
-                </div>
- 
+  <div class="carousel-inner">
+    <div class="item active" style="height: 300px;">
+  <img src="img/thematrix_fullsize.jpg" alt="">
+  <div class="carousel-caption">
+    <h3>Текст</h3> 
+    <p>...</p>
+  </div>
+</div>
+
+    ...
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+					</div>
 					</div>
 					</div>
 					</div>
@@ -89,14 +68,13 @@
 					
   <div class="row">
 					<div class="col-md-8">
-					<ol class="breadcrumb"> <!-- Навигационная панель -->
-  <li><a href="#">К меню</a></li>
+					<ol class="breadcrumb"> <!-- Навигационная панель-->
+  <li><a href="#">Главная</a></li>
 </ol>
 
-					<div class="panel panel-default">       <!-- Панели -->
-  <div class="panel-heading">Контакты</div>
+					<div class="panel panel-default">
+  <div class="panel-heading">Panel heading without title</div>
   <div class="panel-body">
-   <img src="StudioLigth_01_06.jpg" alt="...">
     Panel content
   </div>
 </div><div class="panel panel-default">
@@ -111,7 +89,7 @@
   </div>
 </div>
 <center>
-<ul class="pagination">    <!-- Нумерация -->
+<ul class="pagination">
   <li><a href="#">&laquo;</a></li>
   <li><a href="#">1</a></li>
   <li><a href="#">2</a></li>
@@ -126,13 +104,11 @@
 					
 					
 					
-					<div class="col-md-4">     <!-- Правая колонка -->
+					<div class="col-md-4">
 					<div class="panel panel-default">
-  <div class="panel-heading">Контакты</div>
+  <div class="panel-heading">Топ 5 новостей</div>
   <div class="panel-body">
-    <p>Skype: Maksim Yavorskiy</p>
-	<p>Моб.   0934024513</p>
-	<p>Почта: maksim_px@inbox.ru</p>
+    Panel content
   </div>
 </div>
 
@@ -147,11 +123,7 @@
 		</div>
 		</div>
 	</div>
-<script>
-	$('.carousel').carousel({
-	  interval: 1000
-	})
-</script>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
