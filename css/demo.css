@@ -1,6 +1,6 @@
 /* line 1, ../sass/demo.scss */
 html, body {
-  font-family: 'Slabo 27px', serif;
+  font: 12px/18px Arial, sans-serif;
   padding: 0;
   margin: 0;
   background: #ffffff;

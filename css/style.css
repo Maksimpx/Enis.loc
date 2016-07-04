@@ -126,6 +126,7 @@ ul.dropdown li{
 
 ul.dropdown a:hover{ 
   color: #000; 
+  font-size: 20px;
 }
 
 ul.dropdown li a { 
@@ -137,11 +138,12 @@ ul.dropdown li a {
   text-align: center;
   text-decoration: none;
   font-weight: 300;
+  font-size:20px;
 }
 
 ul.dropdown li a:hover,
 ul.dropdown li a.hover{ 
-  background: #3498db;
+  background:#808080;
   position: relative;
   color: #fff;
 }
@@ -167,6 +169,7 @@ ul.dropdown ul li a{
   display: block; 
   color: #34495e !important;
   background: #eee !important;
+  
 } 
 
 ul.dropdown ul li a:hover{
