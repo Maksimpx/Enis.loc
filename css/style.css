@@ -186,3 +186,15 @@ ul.dropdown ul li a:hover{
 .logo {
 	font-size:20px;
 }
+
+.tyle{
+ display: block; 
+  padding: 20px 8px;
+  color: #34495e; 
+  position: relative; 
+  z-index: 2000; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  font-size:20px;
+}
