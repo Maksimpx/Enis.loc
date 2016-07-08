@@ -13,7 +13,7 @@
 
 </head>
 
-<body style='background: url("../img/white-background-image-16.jpg")no-repeat;'>
+<body>
 
 
 
@@ -46,12 +46,42 @@
 
 </div><!-- .wrapper -->
 
-<div id="center">
+<div class="content">
 		<!-- Содержание блока -->
+		<div class="left-sidebar">
+				<img src="images/pic1.jpg" id="mainImage">
+</div>
 </div>
 
 
 
+<script>
+var ImageIndex = 0;
+var myImage = document.getElementById("mainImage");
+var imageArray = [
+"/images/thumbs/thumb1.jpg",
+"/images/thumbs/thumb2.jpg",
+"/images/thumbs/thumb3.jpg",
+"/images/thumbs/thumb4.jpg",
+"/images/thumbs/thumb5.jpg",
+"/images/thumbs/thumb6.jpg",
+"/images/thumbs/thumb7.jpg",
+"/images/thumbs/thumb8.jpg",
+"/images/thumbs/thumb9.jpg",
+"/images/thumbs/thumb10.jpg",
+"/images/thumbs/thumb11.jpg",
+"/images/thumbs/thumb12.jpg",
+];
+function changeImage(){
+	myImage.setAttribute("src",imageArray[ImageIndex]);
+	ImageIndex++;
+	if (ImageIndex >= imageArray.length) {
+		ImageIndex= 0;
+	}
+	
+}
+window.onload = setInterval(changeImage,5000);
+</script>
 
 </body>
 </html>

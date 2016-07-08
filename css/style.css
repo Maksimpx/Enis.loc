@@ -53,6 +53,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	font: 12px/18px Arial, sans-serif;
 	height: 100%;
+	background: url("../img/white-background-image-16.jpg")no-repeat 50% 0%;
+	background-attachment: fixed;
+	background-size: 100%;
 }
 .wrapper {
 	width: 100%;
@@ -197,4 +200,8 @@ ul.dropdown ul li a:hover{
   text-decoration: none;
   font-weight: 300;
   font-size:20px;
+}
+.left-sidebar {
+float: left;
+width: 50%;
 }
